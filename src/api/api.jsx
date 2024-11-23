@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://notemangebackend.onrender.com";
+const API_URL = "https://notemangebackend.onrender.com/api/tasks";
 
 export const fetchTasks = async () => {
   const response = await axios.get(API_URL);
